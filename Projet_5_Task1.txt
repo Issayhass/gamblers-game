@@ -1,0 +1,19 @@
+#Projet 5:The Gamebler's Game 
+
+#task1
+def play_game(start, target, p=0.5):
+    number_of_rounds=0
+    if start<0:
+        return 'Negative values unauthorized'
+    else:
+        while 0 < start< target:
+            if random.random()<p:
+                start=start+1
+                number_of_rounds=number_of_rounds+1
+            else:
+                start=start-1
+                number_of_rounds=number_of_rounds+1
+        final_coins=start       
+        return (final_coins, number_of_rounds)
+ 
+print(play_game(0, 10))
