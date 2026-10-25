@@ -11,3 +11,10 @@ the probability increase.
 
 For task 2 we notice that etimate(5,10,5000) gives thes result close to start/target and
 start*(target-start) because the game is fair.
+
+The name of group members
+Issa Ahmat Abdelaziz
+Magatte Diop
+MARIE FRANCOISE GUIGNANE DIOUF
+OUMAROU DAO
+Tchiffo Kenne Marthel
